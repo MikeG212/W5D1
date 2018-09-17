@@ -72,3 +72,48 @@
 .masthead-links strong {
 	color: green;
 }
+
+.link-container {
+  display: flex;
+  justify-content: center;
+
+}
+
+.link-container ul {
+  display: flex;
+  flex-direction: row;
+  width: 200px;
+}
+
+.link-container ul li {
+  display: flex;
+  justify-content: center;
+  border-left: 1px solid $light-gray;
+  margin: 2px;
+  z-index: 10;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid $light-gray;
+}
+
+.today-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  border-bottom: 1px solid black;
+}
+
+.today-container ul li {
+  border-left: 1px solid $light-gray;
+  margin: 5px
+}
+.clearfix:after {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}

@@ -13,24 +13,55 @@ body {
 }
 
 button {
-	// background-color:
-	// border-color:
-	// color:
-	// font-weight:
-	// padding:
-	// border-radius:
-	// transition:
-	// font-family:
-	// text-transform:
-	// font-size:
-	// text-align:
+  background-color: $light-blue;
+  color: white;
+  border: none;
+  padding: 1px 8px;
+  text-align: center;
+  transition: background-color 0.3s;
+  // text-decoration: none;
+  // display: flex;
+  font-size: 12px;
+  border-radius: 3px;
+  // width: 15px;
 }
 
-button:hover {
-	// background-color:
-	// border-color:
+.main-nav {
+  border-bottom: 1px solid $light-gray;
+}
+.left-nav {
+  width: 50%;
 }
 
+.right-nav {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  // align-items: center;
+}
+
+.right-nav button:hover {
+	background-color: $dark-blue;
+	border-color: $darkest-blue;
+}
+
+.left-nav button:hover {
+  background-color: $light-gray;
+}
+
+.left-nav button {
+  color: black;
+  background-color: $lightest-gray;
+}
+
+ul li {
+  display: inline;
+  width: 200px;
+}
+
+img {
+  display: inline;
+}
 /*
 	Header Rules
 */
