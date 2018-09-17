@@ -83,3 +83,5 @@ Completed 200 OK in 152ms (Views: 129.6ms | ActiveRecord: 0.0ms)
 
 
 Started GET "/assets/application.self-ef9ca7e318aad8d9b9fb7c28d9695436e0757709b657d8b2205a41236b7ae152.css?body=1" for ::1 at 2018-09-17 11:13:03 -0700
+Started GET "/assets/application.self-ef9ca7e318aad8d9b9fb7c28d9695436e0757709b657d8b2205a41236b7ae152.css?body=1&livereload=1537208198715" for ::1 at 2018-09-17 11:16:38 -0700
+Started GET "/assets/application.self-ef9ca7e318aad8d9b9fb7c28d9695436e0757709b657d8b2205a41236b7ae152.css?body=1&livereload=1537208198717" for ::1 at 2018-09-17 11:16:38 -0700
