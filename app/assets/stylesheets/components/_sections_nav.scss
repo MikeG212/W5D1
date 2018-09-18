@@ -1,0 +1,13 @@
+.sections_container{
+  display: flex;
+  border-bottom: 1px solid $light-gray;
+  justify-content: center;
+}
+.sections_container ul li{
+  margin: 3px;
+}
+
+.sections_container ul li:hover{
+  background-color: $light-gray;
+  text-decoration: underline;
+}
